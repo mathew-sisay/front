@@ -75,3 +75,21 @@ transform: scale(1.04);
 
 }
 
+/*  carousel */
+
+.car {
+  margin-top: -470px;
+  display: flex;
+}
+.par {
+  display: flex;
+}
+/* Home screen carousel */
+.hc {
+  text-align: right;
+  margin-top: 450px;
+}
+.pc {
+  text-align: right;
+
+}
