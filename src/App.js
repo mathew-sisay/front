@@ -7,7 +7,7 @@ function App() {
     <div>
     <Header />
     
-      <main className="py-3">
+      <main >
         <Homescreen />
       </main>
    
