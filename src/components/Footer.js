@@ -27,7 +27,7 @@ function Footer() {
           <div class="row">
   
             <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>Fisher Digital</h3>
+              <h4>Fisher Digital</h4>
               <p>
                 Bole Rwanda Unicon BLDG <br />
                 Addis Ababa, <br />
