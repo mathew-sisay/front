@@ -1,10 +1,11 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import {Row, Col, Carousel,Figure, Button}from 'react-bootstrap';
-import Carouselfade from '../components/Carouselfade'
+import {Row, Col, Carousel,Image, Button}from 'react-bootstrap';
+import carouselll from '../carouselll'
 import Avatar from '@mui/material/Avatar'
 import AvatarGroup from '@mui/material/AvatarGroup'
+
 
 function Homescreen() {
   return (
@@ -194,51 +195,62 @@ function Homescreen() {
 <Row  >
 <div class="section-title">
           <h2>fisher Digital Products</h2>
-          
+          <br></br>
+<br></br>
+<br></br>
+
+
         </div>
 
   <Col>
-      <Card className='mx-3' class='card'>
-        <Card.Img variant="top" src="/images/AHOON.png" />
+      <Card className='mx-3' class="cardhome">
+        <Card.Img variant="top" src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
         <Card.Body>
-          <Card.Title >Nova pharma healing to the masses</Card.Title>
+        <div >
+          <Card.Title ><h4 class="cardtext">Nova pharma healing </h4></Card.Title>
           <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
+          <p>This is a wider card with supporting text below as a natural lead-in
             to additional content. This card has even longer content than the
-            first to show that equal height action.
+            first to show that equal height action.</p>
           </Card.Text>
+          </div>
         </Card.Body>
-        <Card.Link href="#" className='px-5 '>Ahoon</Card.Link>
+        <Card.Link href="#" className='px-5 '></Card.Link>
        
       </Card>
       </Col>
       <Col>
-      <Card bg="white" className='mx-3' class='card'>
+      <Card bg="white" className='mx-3'  class="cardhome">
         <Card.Img variant="top" src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
         <Card.Body>
-          <Card.Title>Ahoon Frieght and Delivery</Card.Title>
-          <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
+        
+        <div >
+          <h4 class="cardtext">Ahoon Frieght and Delivery</h4>
+          
+         <p> This is a wider card with supporting text below as a natural lead-in
             to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
+            first to show that equal height action.</p>
+          
+          </div>
         </Card.Body>
-        <Card.Link href="#" className='px-5 '>Card Link</Card.Link>
+        <Card.Link href="#" className='px-5 '></Card.Link>
         
       </Card>
       </Col>
       <Col>
-      <Card bg="white" className='mx-3' class='card'>
+      <Card bg="white" className='mx-3'  class="cardhome">
         <Card.Img variant="top" src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
         <Card.Body>
-          <Card.Title>Sweet Aroma Coffee export and spot</Card.Title>
+        <div >
+          <Card.Title><h4 class="cardtext">Sweet Aroma Coffee export </h4></Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
+            <p>This is a wider card with supporting text below as a natural lead-in
             to additional content. This card has even longer content than the
-            first to show that equal height action.
+            first to show that equal height action.</p>
           </Card.Text>
+          </div>
         </Card.Body>
-        <Card.Link href="#" className='px-5 '>Card Link</Card.Link>
+        <Card.Link href="#" className='px-5 '></Card.Link>
         
       </Card>
       </Col>
@@ -258,59 +270,54 @@ function Homescreen() {
 <br></br>
     <br />
     
-    <Carousel variant="white"  class='carousel1' className='mx-5'>
+    <Carousel variant="dark" >
       <Carousel.Item>
         <img
-          className="d-block w-1o0"
-          height="250"
-          src="/images/2.jpg"
+          className="d-block w-50"
+          src="images/1.jpg"
           alt="First slide"
+          class="carousel img"
+        
         />
+        <Carousel.Caption class="carousel-caption">
         
-          <h5 class="col-lg-5">First slide label</h5>
-          <p class="col-lg-5 align-text-right">
-            Nulla vitae elit libero, a pharetra augue mollis interdum.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        
+          <h2 class="cardtext">First slide label</h2>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-50"
-          height="250"
-          src="/images/1.jpg"
+          src="images/2.jpg"
           alt="Second slide"
+          class="carousel img"
         />
+        <Carousel.Caption class="carousel-caption">
         
-          <h5 class='hc'>Second slide label</h5>
-          <p class='pc'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        
+          <h2 class="cardtext">Second slide label</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-50"
-          height="250"
-          src="/images/2.jpg"
+          className="d-block w-50 "
+          src="images/3.jpg"
           alt="Third slide"
+          class="carousel img"
         />
+        <Carousel.Caption class="carousel-caption">
         
-          <h5 class='hc'>Third slide label</h5>
-          <p calss='pc'>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h2 class="cardtext">Third</h2>
+          <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
-        
+          
+        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+       
     <br></br>
     <br></br>
     <br></br>
@@ -350,17 +357,16 @@ function Homescreen() {
             </div>
 
           </div>
-
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="mailto:Sales@fisherdigital.com"  enctype="text/plain" method="post" name="messages from fisher web"  id="myform" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required/>
+                  <input type="text" name="name" class="form-control" id="name" required />
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required/>
+                  <input type="email" class="form-control" name="email" id="email" required />
                 </div>
               </div>
               <div class="form-group">
@@ -371,18 +377,22 @@ function Homescreen() {
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
+              
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button  type="submit">Send Message</button></div>
+              {/* <a target='_blank' rel='noopener noreferrer' href='https://localhost:44227'  class="nav-button">Login</a> */}
             </form>
           </div>
 
         </div>
 
-      </div>
+        </div>
+
+      
     </section>
     {/* <!-- End Contact Section --> */}
 
