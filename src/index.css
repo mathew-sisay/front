@@ -14,11 +14,13 @@ code {
 }
 
 .cardhome {
- width: 400px;
- height: 400px;
+ width: 100px;
+ height: 100px;
  
 }
-
+.cardtitle{
+  text-decoration: none;
+}
 .cardtext{
   color: #37517e;
 }

@@ -20,8 +20,7 @@ function Homescreen() {
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>Fisher Digital  </h1>
           <h1> Digitally Yours </h1>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.</h2>
+          <h2>Fisher digital is at the forefront of innovation, developing cutting-edge solutions and products to meet the demands of today's digital age.</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto" >Get Started</a>
             
@@ -48,20 +47,17 @@ function Homescreen() {
         <div class="row content">
           <div class="col-lg-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            Fisher digital is a technology company based in Addis Ababa, Ethiopia and it was founded in 2022.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> Fisher digital is known for it's innovative products and services, which are designed to meet the needs of modern consumers and businesses.</li>
+              <li><i class="ri-check-double-line"></i> Fisher digital tend to be highly competitive, with a focus on staying ahead of the curve and developing new solutions</li>
+              <li><i class="ri-check-double-line"></i> Fisher digital is also known for it's strong culture of collaboration and creativity, which often involve teams of talented engineers, designers, and other professionals working together to solve complex problems and create new products and services that can change the world.</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+            The company has revolutionized the technology industry with its innovative startup such as the Ahoon and Fisherpay. Ahoon is known for its sleek and user-friendly designs, as well as its commitment to solve frieght transport problem. The company's service Fisherpay have also made it a major player in the fintech industry.
             </p>
             <a href="#" class="btn-learn-more">Learn More</a>
           </div>
@@ -80,7 +76,7 @@ function Homescreen() {
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content">
-              <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+              <h3>Fisher digital tend to be highly competitive,  <strong>with a focus on staying ahead of the curve and developing new solutions</strong></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
               </p>
@@ -106,7 +102,7 @@ function Homescreen() {
             <img src="/images/skills.png" class="img-fluid" alt=""/>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+            <h3> Fisher digital is also known for it's strong culture of collaboration and creativity. </h3>
             <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
@@ -136,7 +132,7 @@ function Homescreen() {
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
+              <h4><a href="">Website Development</a></h4>
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
@@ -144,7 +140,7 @@ function Homescreen() {
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspici</a></h4>
+              <h4><a href="">UI/UX Design</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div>
@@ -152,15 +148,15 @@ function Homescreen() {
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
+              <h4><a href="">Digital Marketing</a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Graphics Design</a></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
@@ -202,12 +198,12 @@ function Homescreen() {
 
         </div>
 
-  <Col>
+  <Col >
       <Card className='mx-3' class="cardhome">
-        <Card.Img variant="top" src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+        <Card.Img  variant="top"  src="/images/ahoon.png" />
         <Card.Body>
         <div >
-          <Card.Title ><h4 class="cardtext">Nova pharma healing </h4></Card.Title>
+          <a href='http://ahoondrop.com/' className='cardtitle'><h4 class="cardtext">Ahoon Frieght and Delivery </h4></a>
           <Card.Text>
           <p>This is a wider card with supporting text below as a natural lead-in
             to additional content. This card has even longer content than the
@@ -221,11 +217,11 @@ function Homescreen() {
       </Col>
       <Col>
       <Card bg="white" className='mx-3'  class="cardhome">
-        <Card.Img variant="top" src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+        <Card.Img variant="top" src="/images/pharma.png" />
         <Card.Body>
         
         <div >
-          <h4 class="cardtext">Ahoon Frieght and Delivery</h4>
+          <a href='http://ahoondrop.com/' className='cardtitle'> <h4 class="cardtext">Fisher pharma healing</h4> </a>
           
          <p> This is a wider card with supporting text below as a natural lead-in
             to additional content. This card has even longer content than the
@@ -239,10 +235,10 @@ function Homescreen() {
       </Col>
       <Col>
       <Card bg="white" className='mx-3'  class="cardhome">
-        <Card.Img variant="top" src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+        <Card.Img variant="top" src="images/yoda.png" />
         <Card.Body>
         <div >
-          <Card.Title><h4 class="cardtext">Sweet Aroma Coffee export </h4></Card.Title>
+           <a href='http://ahoondrop.com/' className='cardtitle' > <h4 class="cardtext">Yoda Coffee  </h4></a>
           <Card.Text>
             <p>This is a wider card with supporting text below as a natural lead-in
             to additional content. This card has even longer content than the
@@ -260,7 +256,7 @@ function Homescreen() {
     <br></br>
     <br></br>
       <div class="section-title">
-          <h2>Helping solutions</h2>
+          <h2>Values</h2>
           <p className='mx-5 px-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida mi luctus dui condimentum, sed placerat ex pellentesque. Etiam ut orci mi. Sed ut enim urna. Nullam condimentum tincidunt metus, vel tempor nibh egestas in. Curabitur convallis sollicitudin viverra. Sed sit amet nisi at magna molestie dictum. Quisque ultrices et ex sed accumsan.</p>
         </div>
     
@@ -281,7 +277,7 @@ function Homescreen() {
         />
         <Carousel.Caption class="carousel-caption">
         
-          <h2 class="cardtext">First slide label</h2>
+          <h2 class="cardtext">First </h2>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           
         </Carousel.Caption>
@@ -295,7 +291,7 @@ function Homescreen() {
         />
         <Carousel.Caption class="carousel-caption">
         
-          <h2 class="cardtext">Second slide label</h2>
+          <h2 class="cardtext">Second </h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
          
         </Carousel.Caption>
